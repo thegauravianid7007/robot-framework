@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/BasePage.robot
+Resource    ../../pages/BasePage.robot
 
 *** Variables ***
 ${secure_text_locator}    xpath=//div[contains(text(), 'You logged into a secure area!')]

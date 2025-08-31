@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/BasePage.robot
+Resource    ../../pages/BasePage.robot
 
 *** Keywords ***
 Open Login Page

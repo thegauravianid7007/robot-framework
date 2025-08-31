@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/BasePage.robot
+Resource    ../../pages/BasePage.robot
 
 *** Variables ***
 ${username_locator}    id=username
