@@ -1,7 +1,7 @@
 *** Settings ***
-Resource    ../pages/browser.robot
-Resource    ../pages/LoginPage.robot
-Resource    ../pages/SecurePage.robot
+Resource    ../pages/ui/browser.robot
+Resource    ../pages/ui/LoginPage.robot
+Resource    ../pages/ui/SecurePage.robot
 Test Setup    Open Login Page
 Test Teardown    Close Browser Session
 

@@ -6,3 +6,4 @@ ${USERNAME}    tomsmith
 ${PASSWORD}    SuperSecretPassword!
 ${BROWSER}    chrome
 ${TIMEOUT}    10
+${API_BASE_URL}    https://api.open-meteo.com/v1
