@@ -11,3 +11,16 @@ Valid Login should work
     Perform Login    ${USERNAME}    ${PASSWORD}
     Wait for Secure page to load
     Logout
+
+Invalid Login should not work
+    [Template]    Invalid Login Flow
+    wrongUser    ${PASSWORD}
+    ${USERNAME}    wrongPassword
+    wrongUser    wrongPassword
+
+*** Keywords ***
+Invalid Login Flow
+    [Arguments]    ${username}    ${password}
+    Perform Login    ${username}    ${password}
+    ${result} =    Login Should Fail
+    Should Be True    ${result}
